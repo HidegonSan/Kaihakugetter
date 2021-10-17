@@ -54,7 +54,7 @@ icon_url = "https://cdn.discordapp.com/attachments/767693748926677013/8082666143
 
 
 # 改造博物館から投稿を取得する関数
-def getKaihaku(num=1, mail):
+def getKaihaku(num=1, mail="E-mail"):
 	ret = []
 	r_headers= {"User-Agent": "You can contact me at {mail}"}
 	r = requests.get("http://futtobecom.stars.ne.jp/3ds/Codes/", headers=r_headers)
